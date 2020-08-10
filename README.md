@@ -49,3 +49,54 @@ Z tabeli [Production].[Product], wyświetl produkty, które maja kolor czarny i 
 Z tabeli [Production].[ProductModel], wyświetl nazwy produktów bez powtórzeń
 
 ---
+
+### Zapytanie 9
+
+Z tabeli [Sales].[CreditCard] wyświetl nazwy i podaj ilość typów kart.
+
+---
+
+### Zapytanie 10
+
+Z tabeli [Sales].[CreditCard] wyświetl wszystkie karty, których rok wygasnięcia jest między 2005 a 2007 włącznie.
+
+---
+
+### Zapytanie 11
+
+Wyświetl nazwę, numer oraz kolor produktów, których nazwa modelu to 'Mountain-100'. Tabele do użycia: [Production].[ProductModel] oraz [Production].[Product]
+
+---
+
+### Zapytanie 12
+
+Wyświetl nazwę produktów, których podkategoria to 'Road Bikes'. Tabele do użycia: [Production].[ProductSubcategory] oraz [Production].[Product]
+
+---
+
+### Zapytanie 13
+
+Wyświetl nazwę podkategorii, których kategoria to 'Components'. Tabele do użycia: [Production].[ProductSubcategory] oraz [Production].[ProductCategory]
+
+---
+
+### Zapytanie 14
+
+Wyświetl email osoby, której imię i nazwisko to 'Sharon Salavaria'
+Tabele do użycia: [Person].[Person] oraz [Person].[EmailAddress]
+
+---
+
+### Zapytanie 15
+
+Wyświetl imię, nazwisko oraz e-mail wszystkich osób, których typ to 'EM'
+Tabele do użycia: [Person].[Person] oraz [Person].[EmailAddress]
+
+---
+
+### Zapytanie 16
+
+Wyświetl imię, nazwisko wszystkich osób, które mają karty płatnicze typu 'Vista'
+Tabele do użycia: [Sales].[CreditCard] oraz [Sales].[PersonCreditCard] oraz [Person].[Person]
+
+---
